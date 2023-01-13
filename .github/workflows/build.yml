@@ -3,4 +3,5 @@ jobs:
    first-job:
      runs-on : windows
     steps:
-      -run : node --version
+      - run : node --version
+      - run : npm --version
